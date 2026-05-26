@@ -999,37 +999,6 @@ h3 {
   }
 }
 
-.experience {
-  padding: 0 0 112px;
-  background: var(--blush);
-}
-
-.experience-grid {
-  display: grid;
-  grid-template-columns: minmax(320px, 0.9fr) 1fr;
-  align-items: center;
-  gap: 70px;
-}
-
-.experience-image {
-  aspect-ratio: 5 / 4;
-  overflow: hidden;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-}
-
-.experience-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.experience-copy p:not(.eyebrow) {
-  max-width: 640px;
-  color: var(--ink-soft);
-  font-size: 1.08rem;
-}
-
 .testimonials {
   background:
     radial-gradient(circle at 12% 20%, rgba(196, 154, 79, 0.12), transparent 30%),
@@ -1535,7 +1504,6 @@ h3 {
   }
 
   .hero-grid,
-  .experience-grid,
   .about-grid,
   .testimonial-layout,
   .faq-grid,
@@ -1763,10 +1731,6 @@ h3 {
 
   .feature-card {
     min-height: auto;
-  }
-
-  .experience {
-    padding-bottom: 70px;
   }
 
   .testimonial-carousel {
