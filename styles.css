@@ -1228,22 +1228,6 @@ h3 {
   object-position: center;
 }
 
-.about-panel div {
-  padding: 26px;
-}
-
-.about-panel strong {
-  display: block;
-  font-family: "Playfair Display", Georgia, serif;
-  font-size: 1.9rem;
-}
-
-.about-panel span {
-  display: block;
-  margin-top: 8px;
-  color: rgba(255, 255, 255, 0.72);
-}
-
 .final-cta {
   padding-top: 40px;
 }
@@ -1417,16 +1401,13 @@ h3 {
 }
 
 .footer-social-actions a {
-  display: inline-flex;
-  min-height: 44px;
-  align-items: center;
-  gap: 9px;
-  padding: 0 15px;
+  display: inline-grid;
+  width: 54px;
+  height: 54px;
+  place-items: center;
   border: 1px solid rgba(234, 213, 170, 0.18);
-  border-radius: 999px;
+  border-radius: 12px;
   background: rgba(255, 255, 255, 0.06);
-  font-size: 0.84rem;
-  font-weight: 900;
   transition: transform 0.22s ease, background 0.22s ease, border-color 0.22s ease;
 }
 
@@ -1437,9 +1418,10 @@ h3 {
 }
 
 .footer-social-actions svg {
-  width: 18px;
-  height: 18px;
+  width: 19px;
+  height: 19px;
   color: var(--gold-soft);
+  stroke-width: 1.8;
 }
 
 .footer-bottom {
@@ -1793,10 +1775,6 @@ h3 {
     align-items: flex-start;
     flex-direction: column;
     margin-top: 14px;
-  }
-
-  .about-panel div {
-    padding: 24px;
   }
 
   .footer {
