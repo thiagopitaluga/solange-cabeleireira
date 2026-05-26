@@ -192,8 +192,7 @@ summary {
 
 .btn-primary::after,
 .nav-cta::after,
-.btn-light::after,
-.mobile-sticky a::after {
+.btn-light::after {
   position: absolute;
   inset: -6px;
   z-index: -1;
@@ -1325,10 +1324,6 @@ h3 {
   height: 28px;
 }
 
-.mobile-sticky {
-  display: none;
-}
-
 .reveal {
   opacity: 1;
   transform: translateY(0);
@@ -1468,7 +1463,7 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(1.9rem, 7.2vw, 2rem);
+    font-size: 3em;
   }
 
   .hero-copy {
@@ -1609,39 +1604,9 @@ h3 {
 
   .whatsapp-float {
     right: 16px;
-    bottom: 86px;
+    bottom: 16px;
     width: 54px;
     height: 54px;
-  }
-
-  .mobile-sticky {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 70;
-    display: block;
-    padding: 10px 14px max(10px, env(safe-area-inset-bottom));
-    background: rgba(254, 244, 241, 0.92);
-    border-top: 1px solid rgba(196, 154, 79, 0.2);
-    backdrop-filter: blur(18px);
-  }
-
-.mobile-sticky a {
-    display: flex;
-    min-height: 52px;
-    align-items: center;
-    justify-content: center;
-    border-radius: var(--radius);
-    color: var(--white);
-    position: relative;
-    isolation: isolate;
-    background: linear-gradient(135deg, var(--whatsapp) 0%, var(--whatsapp-dark) 100%);
-    box-shadow: 0 14px 34px rgba(37, 211, 102, 0.28);
-    font-size: 0.86rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    animation: ctaPulse 2.6s ease-in-out infinite;
   }
 }
 
