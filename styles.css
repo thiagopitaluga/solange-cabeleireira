@@ -1240,8 +1240,8 @@ h3 {
   border-radius: var(--radius);
   color: var(--white);
   background:
-    linear-gradient(135deg, rgba(23, 19, 19, 0.92), rgba(90, 60, 49, 0.9)),
-    url("assets/men-grooming.webp") center / cover;
+    linear-gradient(135deg, rgba(23, 19, 19, 0.92), rgba(62, 42, 35, 0.74)),
+    url("assets/final-cta-hair.webp") center / cover;
   box-shadow: var(--shadow);
 }
 
