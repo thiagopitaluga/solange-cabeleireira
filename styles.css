@@ -297,6 +297,12 @@ h1 {
   font-size: clamp(2.85rem, 5vw, 4.9rem);
 }
 
+@media (min-width: 981px) {
+  .hero h1 {
+    font-size: clamp(2.28rem, 4vw, 3.92rem);
+  }
+}
+
 h1 span {
   display: block;
 }
