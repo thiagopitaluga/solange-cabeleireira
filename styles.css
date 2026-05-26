@@ -1214,9 +1214,11 @@ h3 {
 
 .about-panel {
   overflow: hidden;
-  padding: 0;
+  margin-top: -1em;
+  padding: 10px;
+  border: 1px solid rgba(196, 154, 79, 0.32);
   border-radius: var(--radius);
-  background: var(--ink);
+  background: rgba(255, 255, 255, 0.78);
   color: var(--white);
   box-shadow: var(--shadow);
 }
@@ -1224,6 +1226,7 @@ h3 {
 .about-panel img {
   width: 100%;
   aspect-ratio: 4 / 5;
+  border-radius: 4px;
   object-fit: cover;
   object-position: center;
 }
