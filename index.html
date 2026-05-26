@@ -20,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=20260525-mobile" />
+    <link rel="stylesheet" href="styles.css?v=20260525-services-cards" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -107,48 +107,36 @@
         <div class="container">
           <div class="section-heading reveal">
             <h2>Tudo o que você precisa para cuidar da sua imagem em um só lugar.</h2>
-            <p>Escolha um serviço, compare opções, estimativas de tempo e agende direto pelo WhatsApp.</p>
+            <p>Serviços completos para cabelo, barba, mãos e pés, com atendimento acolhedor e acabamento profissional.</p>
           </div>
-          <div class="service-layout reveal" data-services>
-            <article class="service-feature service-bg-feminino" aria-live="polite" data-service-feature>
-              <div class="service-feature-content">
-                <p class="service-kicker" data-service-category>Cabelos Femininos</p>
-                <h3 data-service-title>Cabelos Femininos</h3>
-                <p data-service-description>Cortes, mechas, coloração, escova e tratamentos pensados para valorizar sua beleza natural com acabamento elegante.</p>
-                <div class="service-table" data-service-list>
-                  <div><span>Corte Feminino</span><strong>Sob consulta</strong><small>45 a 60 min</small></div>
-                  <div><span>Coloração e Mechas</span><strong>Sob consulta</strong><small>2h a 4h</small></div>
-                  <div><span>Escova e Modelagem</span><strong>Sob consulta</strong><small>40 a 60 min</small></div>
-                  <div><span>Tratamentos Capilares</span><strong>Sob consulta</strong><small>60 a 90 min</small></div>
-                </div>
-                <div class="service-feature-actions">
-                  <a class="btn btn-primary" data-service-cta href="https://wa.me/5511942110022?text=Ol%C3%A1%2C%20quero%20agendar%20servi%C3%A7os%20de%20Cabelos%20Femininos%20na%20Solange%20Cabeleireira." target="_blank" rel="noopener">Agendar pelo WhatsApp</a>
-                </div>
+          <div class="service-card-grid reveal">
+            <article class="service-card service-bg-masculino">
+              <div class="service-card-content">
+                <i data-lucide="scissors"></i>
+                <h3>Cabelos Masculinos</h3>
+                <p>Corte, barba e tratamentos masculinos para um visual alinhado, moderno e com acabamento impecável.</p>
+                <strong>A partir de R$ 30,00</strong>
+                <a class="btn btn-primary" href="https://wa.me/5511942110022?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20para%20Cabelos%20Masculinos%20na%20Solange%20Cabeleireira." target="_blank" rel="noopener">Agendar horário</a>
               </div>
             </article>
-
-            <div class="service-picker" aria-label="Escolha um serviço">
-              <div class="service-picker-head">
-                <span>Escolha o serviço</span>
-                <div class="service-picker-actions" aria-label="Navegar pelos serviços">
-                  <strong data-service-count>1/3</strong>
-                  <button class="service-arrow" type="button" data-service-prev aria-label="Serviço anterior"><i data-lucide="chevron-left"></i></button>
-                  <button class="service-arrow" type="button" data-service-next aria-label="Próximo serviço"><i data-lucide="chevron-right"></i></button>
-                </div>
+            <article class="service-card service-bg-feminino">
+              <div class="service-card-content">
+                <i data-lucide="sparkles"></i>
+                <h3>Cabelos Femininos</h3>
+                <p>Cortes, mechas, coloração, escova e tratamentos pensados para valorizar sua beleza natural com acabamento elegante.</p>
+                <strong>A partir de R$ 50,00</strong>
+                <a class="btn btn-primary" href="https://wa.me/5511942110022?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20para%20Cabelos%20Femininos%20na%20Solange%20Cabeleireira." target="_blank" rel="noopener">Agendar horário</a>
               </div>
-              <button class="service-option is-active" type="button" aria-pressed="true" data-service-option data-bg="service-bg-feminino" data-category="Beleza capilar" data-title="Cabelos Femininos" data-description="Cortes, mechas, coloração, escova e tratamentos pensados para valorizar sua beleza natural com acabamento elegante." data-total="4 serviços" data-services-list="Corte Feminino|Sob consulta|45 a 60 min;Coloração e Mechas|Sob consulta|2h a 4h;Escova e Modelagem|Sob consulta|40 a 60 min;Tratamentos Capilares|Sob consulta|60 a 90 min">
-                <span><i data-lucide="flower-2"></i><strong>Cabelos Femininos</strong></span>
-                <small>4 serviços · feminino</small>
-              </button>
-              <button class="service-option" type="button" aria-pressed="false" data-service-option data-bg="service-bg-masculino" data-category="Estilo masculino" data-title="Cabelos Masculinos" data-description="Corte, barba e tratamentos masculinos para um visual alinhado, moderno e com acabamento impecável." data-total="3 serviços" data-services-list="Corte Masculino|Sob consulta|30 a 45 min;Barba|Sob consulta|25 a 40 min;Coloração e Tonalização|Sob consulta|50 a 90 min">
-                <span><i data-lucide="user-round-check"></i><strong>Cabelos Masculinos</strong></span>
-                <small>3 serviços · masculino</small>
-              </button>
-              <button class="service-option" type="button" aria-pressed="false" data-service-option data-bg="service-bg-unhas" data-category="Mãos e pés" data-title="Manicure e Pedicure" data-description="Cuidados completos para mãos e pés, com esmaltação, acabamento delicado e opções personalizadas de nail art." data-total="3 serviços" data-services-list="Manicure e Pedicure|Sob consulta|60 a 90 min;Esmaltação|Sob consulta|30 a 45 min;Nail Art|Sob consulta|45 a 75 min">
-                <span><i data-lucide="hand-heart"></i><strong>Manicure e Pedicure</strong></span>
-                <small>3 serviços · unhas</small>
-              </button>
-            </div>
+            </article>
+            <article class="service-card service-bg-unhas">
+              <div class="service-card-content">
+                <i data-lucide="hand-heart"></i>
+                <h3>Manicure e Pedicure</h3>
+                <p>Cuidados completos para mãos e pés, com esmaltação, acabamento delicado e opções personalizadas de nail art.</p>
+                <strong>A partir de R$ 30,00</strong>
+                <a class="btn btn-primary" href="https://wa.me/5511942110022?text=Ol%C3%A1%2C%20quero%20agendar%20um%20hor%C3%A1rio%20para%20Manicure%20e%20Pedicure%20na%20Solange%20Cabeleireira." target="_blank" rel="noopener">Agendar horário</a>
+              </div>
+            </article>
           </div>
         </div>
       </section>
