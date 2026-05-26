@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://solange-cabeleireira.vercel.app/sitemap.xml
